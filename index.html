@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nancy Joshi — B.Com student interested in accounting, data, Excel and digital creativity.">
+  <title>Nancy Joshi | Portfolio</title>
+  <style>
+    :root{--bg:#101318;--panel:#191e25;--text:#f4f5f7;--muted:#a8b0bb;--accent:#79d7d0;--line:#2b333d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#101318eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.15rem;font-weight:800;letter-spacing:.4px}.brand span{color:var(--accent)}
+    .navlinks{display:flex;gap:26px;color:var(--muted);font-size:.93rem}.navlinks a:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1.08fr .92fr;gap:60px;align-items:center;padding:78px 0 88px;min-height:620px}
+    .eyebrow{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.8rem,6vw,5.2rem);line-height:1.04;letter-spacing:-2.8px;margin:18px 0}
+    h1 span{color:var(--accent)}.lead{color:var(--muted);font-size:1.08rem;max-width:570px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 20px;border-radius:8px;font-weight:700;border:1px solid var(--accent);display:inline-flex;align-items:center;justify-content:center}
+    .primary{background:var(--accent);color:#101318}.secondary{color:var(--text)}.btn:hover{transform:translateY(-2px)}
+    .photo-frame{position:relative;max-width:430px;margin-left:auto}.photo-frame:before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--accent);border-radius:18px}
+    .photo-frame img{position:relative;width:100%;height:510px;object-fit:cover;object-position:center 28%;border-radius:18px;display:block;filter:saturate(.88)}
+    section{padding:78px 0;border-top:1px solid var(--line)}.section-kicker{color:var(--accent);text-transform:uppercase;letter-spacing:2px;font-size:.75rem;font-weight:800}
+    h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-1px;margin:8px 0 26px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+    .muted{color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+    .stat strong{display:block;color:var(--accent);font-size:1.6rem}.stat span{color:var(--muted);font-size:.9rem}
+    .skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill{padding:18px;border:1px solid var(--line);background:var(--panel);border-radius:12px;font-weight:650}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card h3{margin:8px 0}.tag{font-size:.72rem;color:var(--accent);text-transform:uppercase;letter-spacing:1.4px;font-weight:800}
+    .card p{color:var(--muted);font-size:.94rem}.contact{display:flex;justify-content:space-between;align-items:center;gap:24px;background:var(--panel);padding:30px;border:1px solid var(--line);border-radius:16px}
+    footer{padding:28px 0;color:var(--muted);font-size:.85rem}.social{display:flex;gap:18px;color:var(--accent);flex-wrap:wrap}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:38px;padding:55px 0}.photo-frame{margin:0 auto;width:min(100%,420px)}.photo-frame img{height:440px}.about-grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr 1fr}.navlinks{gap:12px;font-size:.8rem}}
+    @media(max-width:520px){.navlinks{display:none}.hero{min-height:auto}.projects{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}.photo-frame img{height:390px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">NANCY<span>.</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">B.Com Student · Aspiring Professional</div>
+      <h1>Hello, I'm<br><span>Nancy Joshi.</span></h1>
+      <p class="lead">I’m a commerce student building my skills in accounting, data handling and Microsoft Excel. I enjoy learning practical tools and turning information into clear, useful work.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn secondary" href="#contact">Get in touch</a></div>
+    </div>
+    <div class="photo-frame"><img src="assets/profile.jpg" alt="Nancy seated in a modern office workspace"></div>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <div class="section-kicker">A little about me</div><h2>Curious mind. Practical skills.</h2>
+    <div class="about-grid">
+      <div><p class="muted">I’m currently pursuing a Bachelor of Commerce (B.Com). I’m interested in the way business, finance and technology work together. I’m developing my knowledge step by step through coursework and hands-on practice.</p><p class="muted">My goal is to keep improving, build useful projects and grow into opportunities where I can contribute with accuracy, creativity and a willingness to learn.</p></div>
+      <div class="stats"><div class="stat"><strong>B.Com</strong><span>Undergraduate student</span></div><div class="stat"><strong>Excel</strong><span>Learning & practice</span></div><div class="stat"><strong>Accounts</strong><span>Commerce interest</span></div><div class="stat"><strong>Always</strong><span>Ready to learn</span></div></div>
+    </div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-kicker">What I'm learning</div><h2>Skills & interests</h2>
+    <div class="skills"><div class="skill">Microsoft Excel</div><div class="skill">Accounting Basics</div><div class="skill">Data Handling</div><div class="skill">Tally Prime</div><div class="skill">Business Studies</div><div class="skill">PowerPoint</div><div class="skill">Digital Creativity</div><div class="skill">Communication</div></div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <div class="section-kicker">Selected practice work</div><h2>Projects I'm building</h2>
+    <div class="projects">
+      <article class="card"><div class="tag">Excel · Practice</div><h3>Excel Formula Workbook</h3><p>A practice collection of useful spreadsheet formulas, examples and simple data tasks.</p></article>
+      <article class="card"><div class="tag">Accounting · Practice</div><h3>Accounts & Tally Exercises</h3><p>Learning basic accounting entries and exploring how transactions are recorded in Tally Prime.</p></article>
+      <article class="card"><div class="tag">Presentation · Creative</div><h3>Business Presentations</h3><p>Creating clear, student-friendly presentations on business, commerce and general topics.</p></article>
+    </div>
+    <p class="muted" style="margin-top:18px;font-size:.85rem">These are learning and practice areas. Add links to your completed work here as you publish projects.</p>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="section-kicker">Let's connect</div><h2>Have a project or opportunity?</h2>
+    <div class="contact"><div><h3 style="margin:0 0 6px">I'd be happy to connect.</h3><p class="muted" style="margin:0">Replace the sample contact details with your own before publishing.</p></div><div class="social"><a href="mailto:your-email@example.com">Email</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></div></div>
+  </div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Nancy Joshi · Personal Portfolio</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
